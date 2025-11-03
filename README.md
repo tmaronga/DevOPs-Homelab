@@ -53,3 +53,6 @@ Following a 12-week intensive DevOps bootcamp covering:
 **Tomorrow's goals:**
 - Practice 20 Linux commands
 - Start shell scripting basics
+
+🔗 **Live Repository:** https://github.com/tmaronga/devops-homelab
+📅 **Last Updated:** November 03, 2025
