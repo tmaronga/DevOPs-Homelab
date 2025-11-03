@@ -1,0 +1,236 @@
+Day 1 - Linux Command Practice Log
+====================================
+Date: November 4, 2025
+Student: tmaronga
+System: HP EliteBook 725 G3 - Ubuntu 24.04 LTS
+
+Commands Practiced Today:
+------------------------
+
+1. pwd - Print Working Directory
+   Usage: pwd
+   Purpose: Shows current directory location
+   Example output: /home/sir-rongiz/devops-practice/logs
+
+2. ls - List Files
+   Usage: ls [options]
+   Variations practiced:
+   - ls          (basic list)
+   - ls -l       (long format with details)
+   - ls -lh      (human-readable sizes)
+   - ls -la      (all files including hidden)
+   - ls -lah     (combination of all)
+
+3. cd - Change Directory
+   Usage: cd [path]
+   Examples:
+   - cd ~        (go to home directory)
+   - cd ..       (go up one directory)
+   - cd -        (go to previous directory)
+   - cd /var/log (absolute path)
+
+4. mkdir - Make Directory
+   Usage: mkdir [options] directory_name
+   Examples:
+   - mkdir test
+   - mkdir -p path/to/nested/dir (create parent directories)
+
+5. echo - Print Text / Create Files
+   Usage: echo "text"
+   Examples:
+   - echo "Hello DevOps"
+   - echo "text" > file.txt    (create/overwrite)
+   - echo "text" >> file.txt   (append)
+
+6. cat - Concatenate / View Files
+   Usage: cat filename
+   Purpose: Display file contents
+   Example: cat README.md
+
+7. nano - Text Editor
+   Usage: nano filename
+   Controls:
+   - Ctrl+X to exit
+   - Y to save
+   - Enter to confirm
+
+8. grep - Search Text in Files
+   Usage: grep "pattern" filename
+   Examples:
+   - grep "DevOps" README.md
+   - grep -i "devops" README.md (case-insensitive)
+   - grep -n "text" file.txt (show line numbers)
+
+9. find - Search for Files
+   Usage: find [path] [options]
+   Examples:
+   - find . -name "*.sh"     (find shell scripts)
+   - find . -name "*.log"    (find log files)
+   - find . -type d          (find directories)
+   - find . -type f          (find files only)
+
+10. chmod - Change File Permissions
+    Usage: chmod [permissions] filename
+    Examples:
+    - chmod +x script.sh      (make executable)
+    - chmod 755 script.sh     (rwxr-xr-x)
+    - chmod 644 file.txt      (rw-r--r--)
+
+11. cp - Copy Files
+    Usage: cp source destination
+    Examples:
+    - cp file.txt file-backup.txt
+    - cp -r directory/ backup/  (recursive for directories)
+
+12. mv - Move/Rename Files
+    Usage: mv source destination
+    Examples:
+    - mv file.txt newname.txt     (rename)
+    - mv file.txt ../             (move to parent)
+    - mv old.txt ../new.txt       (move and rename)
+
+13. rm - Remove Files
+    Usage: rm [options] filename
+    Examples:
+    - rm file.txt
+    - rm -r directory/  (recursive for directories)
+    - rm -f file.txt    (force, no confirmation)
+
+14. df - Disk Free Space
+    Usage: df -h
+    Purpose: Shows disk usage in human-readable format
+    Output: Shows total, used, available space per partition
+
+15. free - Memory Usage
+    Usage: free -h
+    Purpose: Shows RAM usage in human-readable format
+    Output: Shows total, used, free, available memory
+
+16. whoami - Current User
+    Usage: whoami
+    Output: Shows your username
+
+17. hostname - Computer Name
+    Usage: hostname
+    Output: Shows your computer's hostname
+
+18. uname - System Information
+    Usage: uname -a
+    Purpose: Shows all system information
+    Output: Kernel, architecture, etc.
+
+19. date - Current Date/Time
+    Usage: date
+    Output: Current date and time
+
+20. uptime - System Uptime
+    Usage: uptime
+    Output: How long system has been running
+
+21. tree - Directory Structure
+    Usage: tree [path]
+    Purpose: Shows directory structure visually
+    Example: tree ~/devops-practice
+
+22. git - Version Control
+    Commands practiced:
+    - git status      (check repository status)
+    - git add .       (stage all changes)
+    - git commit -m   (commit with message)
+    - git push        (push to GitHub)
+    - git log         (view commit history)
+
+Git Commands Mastered:
+----------------------
+- git init
+- git config --global user.name
+- git config --global user.email
+- git remote add origin
+- git branch -M main
+- git add
+- git commit
+- git push
+- git status
+- git log --oneline
+
+Practice Exercises Completed:
+-----------------------------
+[✓] Created test files with echo
+[✓] Viewed files with cat
+[✓] Searched text with grep
+[✓] Found files with find
+[✓] Changed permissions with chmod
+[✓] Copied and moved files
+[✓] Checked system resources
+[✓] Connected to GitHub
+[✓] Made first commits
+[✓] Created working shell script
+
+Scripts Created:
+---------------
+1. system-check.sh - Automated system health monitoring
+
+Key Learnings:
+-------------
+- > overwrites files, >> appends to files
+- chmod +x makes scripts executable
+- Git tracks changes locally, GitHub stores remotely
+- -h flag usually means "human-readable"
+- . (dot) means current directory
+- .. (double dot) means parent directory
+- ~ (tilde) means home directory
+
+Common Patterns Noticed:
+-----------------------
+- Most commands have -h or --help for help
+- -r usually means recursive
+- -f usually means force
+- -a usually means all
+- -l usually means long/detailed format
+
+Mistakes Made & Lessons:
+-----------------------
+1. Forgot to use sudo for system commands
+   Lesson: Use sudo for administrative tasks
+
+2. Used > instead of >> and lost data
+   Lesson: > overwrites, >> appends
+
+3. Tried to git push without remote
+   Lesson: Need to connect to GitHub first
+
+4. Forgot chmod +x on script
+   Lesson: Scripts need execute permission
+
+Commands to Practice More Tomorrow:
+-----------------------------------
+- ps (process status)
+- top / htop (process monitoring)
+- kill (terminate processes)
+- systemctl (service management)
+- sed (stream editor)
+- awk (text processing)
+- pipe | (combining commands)
+- tail -f (follow logs in real-time)
+
+Total Commands Practiced: 22+
+Time Spent: 2.5 hours
+Confidence Level: 7/10
+
+Next Session Goals:
+------------------
+[ ] Master process management
+[ ] Learn text processing (sed, awk)
+[ ] Create 2 more utility scripts
+[ ] Practice command piping
+[ ] Learn about system services
+
+Notes:
+------
+- Everything is working well
+- Git workflow is smooth now
+- Ready for more advanced topics
+- System resources are adequate for learning
+
+---
+End of Day 1 Practice Log
