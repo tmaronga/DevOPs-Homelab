@@ -25,3 +25,29 @@
 **Energy level:** High 🔋🔋🔋🔋 Low
 
 ---
+### End of Day Reflection
+
+**What went well:**
+- setting up , creating files and folders
+- practising commands and familiarizing myself with the terminal
+- documenting in NANO
+
+**What was challenging:**
+- linking my github to reflect my project 
+- rememebring to commit every change 
+- moving files around 
+
+**Key insight:**
+- this journey requires contineous practice and dedication
+
+**Tomorrow I will:**
+- [ ] Process management
+- [ ] Text processing (sed, awk)
+- [ ] Create 2 new scripts
+- [ ] Explore K3s installation
+
+**Energy level at end of day:** 🔋🔋🔋__ (3/5)
+
+**Looking forward to tomorrow:** Yes 
+
+---
