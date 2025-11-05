@@ -126,3 +126,29 @@ Following a 12-week intensive DevOps bootcamp covering:
 *Last Updated: November 4, 2025*  
 *Total Days Completed: 1/84*  
 *Progress: 1.2%*
+---
+
+## 📸 Visual Portfolio
+
+Day 1 screenshots available in `/screenshots/day1/`:
+- System health check output
+- Directory structure
+- Git commit history
+- System resources
+
+---
+
+## 🔗 Quick Links
+
+- **Repository:** https://github.com/tmaronga/DevOPs-Homelab
+- **Quick Reference:** [QUICK-REFERENCE.md](QUICK-REFERENCE.md)
+- **Daily Log:** [DAILY-LOG.md](DAILY-LOG.md)
+
+---
+
+**Last Updated:** November 4, 2025  
+**Days Completed:** 1/84  
+**Progress:** 1.2% ⚡
+
+*Building in public. Learning DevOps. One day at a time.* 🚀
+# DevOps-and-A2-Czech-languageJourney
