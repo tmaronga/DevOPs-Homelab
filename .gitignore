@@ -1,0 +1,25 @@
+
+# Custom additions for DevOps project
+*.log
+*.tmp
+temp/
+.env
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Python virtual environments
+venv/
+env/
+ENV/
+
+# Docker
+.dockerignore

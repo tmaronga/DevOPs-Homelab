@@ -1,2 +1,31 @@
-This is my first log entry
-Second line
+# Day 1 - DevOps Journey Begins
+Date: November 4, 2025
+
+## Setup Complete
+- ✅ GitHub repository created: devops-homelab
+- ✅ Local workspace set up: ~/devops-practice/devops-homelab
+- ✅ Git configured
+- ✅ Project structure created
+- ✅ Ready to start learning!
+
+## Directories Created
+- scripts/    (automation scripts)
+- docker/     (Docker projects)
+- python/     (Python scripts)
+- kubernetes/ (K8s configs)
+- logs/       (daily logs)
+- docs/       (documentation)
+- czech/      (language learning)
+
+## Goals for This Repository
+1. Document 12-week DevOps learning journey
+2. Create practical automation tools
+3. Build portfolio for Czech recruiters
+4. Practice Czech language (A2 level)
+5. Transition from Tech Support to DevOps Engineer
+
+## Time Invested Today
+Setup: 30 minutes
+Total: 30 minutes
+
+Status: 🟢 Ready for Day 2!

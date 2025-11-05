@@ -1,154 +1,138 @@
-# My DevOps Learning Journey
+# DevOps Home Lab | Domácí DevOps Laboratoř
 
-**Started:** November 4, 2025
-**Goal:** Transition from Tech Support to DevOps Engineer
+🚀 **12-Week Intensive DevOps Learning Journey**
 
-## System Specs
-- **Laptop:** HP EliteBook 725 G3
-- **RAM:** 16GB
-- **Storage:** 256GB HDD
-- **OS:** Ubuntu 24.04 LTS
-- **IP Address:** 192.168.1.14
-- **Free Disk Space:** 233G   25G  197G  12% /                 total        used        free      shared  buff/cache   available
-Mem:            14Gi       3.5Gi       8.5Gi       175Mi       3.0Gi        11Gi
-Swap:          4.0Gi          0B       4.0Gi
-
-
-## Learning Plan
-Following a 12-week intensive DevOps bootcamp covering:
-- Linux fundamentals
-- Docker & containerization
-- Kubernetes
-- CI/CD pipelines
-- Infrastructure as Code
-- Cloud platforms (Azure)
-
-## Week 1 - Linux & Docker Foundations
-
-### Day 1 - System Setup ✅
-- Updated system
-- Installed essential tools (htop, git, tree)
-- Explored system resources
-- Created organized workspace
-- Started documentation
-
-### Day 2 - Linux Commands
-- [ ] File operations practice
-- [ ] Permission management
-- [ ] Process monitoring
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/tmaronga/devops-homelab)
+[![Status](https://img.shields.io/badge/Status-Active-success)]()
+[![Days](https://img.shields.io/badge/Days_Completed-1%2F84-orange)]()
 
 ---
 
-## Daily Notes
+## 👨‍💻 About This Project | O tomto projektu
 
-### 2025-11-04 (Day 1)
-**What I learned:**
-- How to use apt package manager
-- Understanding system resources with htop
-- Creating directory structures
+**English:**  
+Personal DevOps learning journey documenting my transition from Technical Support to DevOps Engineering. This repository contains daily practice, automation scripts, Docker projects, and progress tracking.
 
-**Challenges:**
-- [Write any issues you faced]
-
-**Tomorrow's goals:**
-- Practice 20 Linux commands
-- Start shell scripting basics
-
-🔗 **Live Repository:** https://github.com/tmaronga/devops-homelab
-📅 **Last Updated:** November 03, 2025
----
-
-## 📊 Daily Progress Tracker
-
-### Week 1: Linux & Docker Foundations
-
-#### ✅ Day 1 - November 4, 2025
-**Time Spent:** 2.5 hours  
-**Status:** COMPLETED
-
-**What I Built:**
-- ✅ Organized workspace structure
-- ✅ `system-check.sh` - Automated health monitoring script
-- ✅ Command practice log with 22+ commands
-
-**Skills Acquired:**
-- Linux command line navigation
-- File operations and permissions
-- Git version control workflow
-- Shell scripting basics
-- System resource monitoring
-
-**Commands Mastered:** 22+
-- Navigation: pwd, cd, ls
-- Files: cat, echo, nano, grep, find
-- Permissions: chmod
-- System: df, free, htop, uname, uptime
-- Git: init, add, commit, push, status
-
-**GitHub Activity:**
-- Repository created: https://github.com/tmaronga/devops-homelab
-- Commits made: [check with: git log --oneline | wc -l]
-- Files tracked: README.md, scripts/, logs/
-
-**System Stats:**
-- Hostname: sir-rongiz-HP-EliteBook-725-G3
-- OS: Ubuntu 24.04 LTS
-- RAM: 16GB
-- Storage: 256GB HDD
-
-**Achievements Unlocked:** 🎉
-- 🏆 First Git repository
-- 🏆 First shell script
-- 🏆 GitHub connected and working
-- 🏆 Documentation system established
-
-**Challenges Overcome:**
-- ✓ Git authentication with Personal Access Token
-- ✓ Understanding file permissions
-- ✓ Difference between > and >>
-
-**Key Insights:**
-- Documentation while learning is crucial
-- Small, consistent commits are better than large ones
-- Understanding the basics deeply helps later
-
-**Tomorrow's Focus:**
-- [ ] Process management (ps, top, kill)
-- [ ] Text processing (sed, awk, pipe)
-- [ ] Create 2 more automation scripts
-- [ ] Deep dive into file permissions
-
-**Confidence Level:** 7/10  
-**Motivation:** 🔥🔥🔥🔥🔥
+**Česky:**  
+Osobní cesta učení DevOps dokumentující můj přechod z technické podpory do DevOps inženýrství. Tento repozitář obsahuje denní cvičení, automatizační skripty, Docker projekty a sledování pokroku.
 
 ---
 
-*Last Updated: November 4, 2025*  
-*Total Days Completed: 1/84*  
-*Progress: 1.2%*
----
+## 🎯 Goals | Cíle
 
-## 📸 Visual Portfolio
+### 12-Week Learning Plan
+- **Weeks 1-2:** Linux & Docker Fundamentals
+- **Weeks 3-4:** Python & Automation
+- **Weeks 5-6:** Kubernetes Basics
+- **Weeks 7-8:** CI/CD Pipelines
+- **Weeks 9-10:** Infrastructure as Code
+- **Weeks 11-12:** Real-world Projects & Job Applications
 
-Day 1 screenshots available in `/screenshots/day1/`:
-- System health check output
-- Directory structure
-- Git commit history
-- System resources
-
----
-
-## 🔗 Quick Links
-
-- **Repository:** https://github.com/tmaronga/DevOPs-Homelab
-- **Quick Reference:** [QUICK-REFERENCE.md](QUICK-REFERENCE.md)
-- **Daily Log:** [DAILY-LOG.md](DAILY-LOG.md)
+### Personal Goals
+- ✅ Master Linux system administration
+- 🔄 Learn Docker & Kubernetes
+- 🔄 Build automation tools with Python & Bash
+- 🔄 Create portfolio for Czech DevOps market
+- 🔄 Improve Czech language (A2 → B1)
+- 🔄 Land DevOps Engineer role in Prague
 
 ---
+
+## 📊 Current Progress
+
+**Week:** 1 of 12  
+**Day:** 1 of 84  
+**Completion:** 1.2%
+
+### Skills Progress
+- Linux: ████░░░░░░ 20%
+- Docker: ░░░░░░░░░░ 0%
+- Python: ███░░░░░░░ 30%
+- Kubernetes: ░░░░░░░░░░ 0%
+- Czech: ███░░░░░░░ 30% (A1 passed, working on A2)
+
+---
+
+## 📁 Repository Structure
+```
+devops-homelab/
+├── README.md              # This file
+├── scripts/               # Automation scripts
+├── docker/                # Docker projects & containers
+├── python/                # Python automation tools
+├── kubernetes/            # K8s configurations
+├── logs/                  # Daily learning logs
+├── docs/                  # Documentation & guides
+└── czech/                 # Czech language practice
+```
+
+---
+
+## 🛠️ Tech Stack
+
+**Operating System:**
+- Ubuntu 24.04 LTS
+
+**Tools & Technologies:**
+- Git & GitHub
+- Docker (coming soon)
+- Python 3
+- Bash scripting
+- VS Code / Vim
+
+**Hardware:**
+- HP EliteBook 725 G3 (16GB RAM, 256GB HDD)
+- HP EliteBook 820 G2 (12GB RAM, 238GB SSD)
+
+---
+
+## 📚 Learning Resources
+
+- **Course:** IBM DevOps and Software Engineering Professional Certificate
+- **Current Module:** 7 - Python Programming
+- **Books:** The Phoenix Project, Docker Deep Dive
+- **Practice:** Daily hands-on labs (2-3 hours/day)
+
+---
+
+## 💼 About Me | O mně
+
+**Current Position:** Technical Support @ AT&T Prague  
+**Career Goal:** DevOps Engineer in Czech Republic  
+**Location:** Prague, Czech Republic 🇨🇿  
+**Languages:** English (Fluent), Czech (A2 - Intermediate)
+
+---
+
+## 📈 Daily Updates
+
+This repository is updated daily with new learnings, projects, and progress. Check the `logs/` directory for detailed daily activities.
 
 **Last Updated:** November 4, 2025  
-**Days Completed:** 1/84  
-**Progress:** 1.2% ⚡
+**Status:** 🟢 Day 1 Complete - Ready for Day 2!
 
-*Building in public. Learning DevOps. One day at a time.* 🚀
-# DevOps-and-A2-Czech-languageJourney
+---
+
+## 🌟 Follow My Journey
+
+- **GitHub:** [github.com/tmaronga](https://github.com/tmaronga)
+- **LinkedIn:** [linkedin.com/in/your-profile](#) *(update this)*
+- **Email:** your.email@example.com *(update this)*
+
+---
+
+## 📝 Daily Log
+
+### Day 1 - November 4, 2025
+- ✅ Repository created and configured
+- ✅ Project structure established
+- ✅ Git workflow set up
+- ✅ Ready to begin intensive learning
+
+**Time invested:** 30 minutes  
+**Status:** Setup complete 🎉
+
+---
+
+*"From tech support to DevOps - one commit at a time."*  
+*"Od technické podpory k DevOps - jeden commit po druhém."*
