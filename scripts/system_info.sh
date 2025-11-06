@@ -1,6 +1,6 @@
 #!/bin/bash
 # System Information Script
-# Author: Your Name
+# Author: Tendayi Maronga
 # Purpose: Display basic system information
 
 echo "=================================="
