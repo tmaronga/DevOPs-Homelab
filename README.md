@@ -37,6 +37,42 @@ git push25
 - Background jobs (&) essential for long processes
 - systemctl is the gateway to all services
 
+## 🎮 Bandit OverTheWire Practice
+
+Incorporating [Bandit wargame](https://overthewire.org/wargames/bandit/) for systematic Linux command practice.
+
+### Progress Tracker
+- **Current Level:** 0
+- **Levels Completed:** 0/34
+- **Started:** November 6, 2025
+- **Progress:** 0%
+
+### Structure
+- `bandit/levels/` - Level-by-level notes
+- `bandit/notes/` - Detailed practice log
+- `bandit/solutions/` - Solution approaches
+
+### Quick Commands
+```bash
+# Start practice session
+./scripts/bandit-session.sh
+
+# Check progress
+./scripts/bandit-tracker.sh
+
+# View command reference
+cat bandit/bandit-commands-reference.md
+```
+
+### Learning Goals
+- Master 50+ Linux commands through practical challenges
+- Develop problem-solving approaches
+- Build command-line confidence
+- Document learning journey
+
+**Bandit Documentation:** [bandit/README.md](bandit/README.md)
+
+---
 **Tomorrow's Focus:**
 - [ ] Docker installation and basics
 - [ ] Container concepts

@@ -102,3 +102,42 @@ sudo apt clean         # Clean disk space
 ---
 
 *Quick reference for daily DevOps tasks*
+---
+
+## 🎮 Bandit Practice Commands
+
+### Connect to Bandit
+```bash
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+# General format: banditX where X is level number
+```
+
+### Common Bandit Commands
+```bash
+# Files with special names
+cat ./-filename          # File starting with dash
+cat "spaces in name"     # File with spaces
+cat ./$(cat filename)    # Nested file reading
+
+# Finding files
+find . -size 1033c       # Exact size
+find . -user bandit7     # By owner
+find . ! -executable     # Not executable
+
+# Text processing
+strings file             # Extract readable text
+xxd file                 # Hex dump
+base64 -d file          # Decode base64
+
+# Network
+nc host port            # Netcat connection
+openssl s_client        # SSL connection
+```
+
+### Bandit Helper Scripts
+```bash
+./scripts/bandit-session.sh   # Start practice
+./scripts/bandit-tracker.sh   # Check progress
+```
+
+---
