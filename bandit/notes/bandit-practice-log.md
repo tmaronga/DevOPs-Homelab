@@ -219,6 +219,64 @@ is the correct file — it's human-readable
 - `pwd` - Print working directory
 
 ---
+## Level 5 → Level 6
+**Date:** November 6, 2025  
+**Time Taken:** 40 minutes
+
+### Challenge
+Find a file with specific properties: human-readable, 1033 bytes, not executable.
+
+### Commands Used
+```bash
+cd inhere
+find . -type f -size 1033c ! -executable
+cat ./maybehere07/.file2 
+```
+
+### Solution
+Used find with multiple conditions to narrow down from many files.
+
+### Key Learning
+- Combining multiple find conditions
+- Understanding file sizes (bytes with 'c')
+- Using ! to negate conditions (NOT executable)
+- find is incredibly powerful for file searches
+
+### Commands Practiced
+- `find . -type f` - Find only files
+- `find . -size 1033c` - Find by exact size
+- `find . ! -executable` - Find non-executable
+- Combining multiple find conditions with AND logic
+
+
+### Bandit Practice
+- **Session Time:** 40 minutes
+- **Levels Completed:** 0→1, 1→2, 2→3, 3→4, 4→5
+- **Currently Working:** 5→6
+- **Progress:** 15% (5/34 levels)
+
+**Key Learnings:**
+- Handling special characters in filenames (-, spaces)
+- Finding hidden files with ls -la
+- Using file command to identify file types
+- Complex find queries with multiple conditions
+
+**Commands Mastered:**
+- cat ./-
+- cat "spaces in name"
+- ls -la
+- file ./*
+- find with -type, -size, ! conditions
+
+**Challenges Faced:**
+- Level 4→5: Had to check all 10 files to find the readable one
+- Level 5→6: Learning to combine multiple find conditions
+
+**Tomorrow:**
+- Complete levels 5→10
+- Document all solutions
+- Practice find command variations
+
 
 ## Summary Statistics
 
