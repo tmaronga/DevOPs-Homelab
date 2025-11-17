@@ -42,10 +42,10 @@ git push25
 Incorporating [Bandit wargame](https://overthewire.org/wargames/bandit/) for systematic Linux command practice.
 
 ### Progress Tracker
-- **Current Level:** 0
-- **Levels Completed:** 0/34
+- **Current Level:** 5
+- **Levels Completed:** 5/34
 - **Started:** November 6, 2025
-- **Progress:** 0%
+- **Progress:** 17%
 
 ### Structure
 - `bandit/levels/` - Level-by-level notes

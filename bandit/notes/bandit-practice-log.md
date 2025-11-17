@@ -29,7 +29,8 @@ cat readme
 ```
 
 ### Solution
-The password for level 1 is stored in a file called `readme` in the home directory.
+- The password for level 1 is stored in a file called `readme` in the home directory.
+
 
 ### Password for Next Level
 ```
@@ -42,11 +43,13 @@ ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 - Reading file contents with cat
 - Understanding home directory (~)
 
+
 ### Commands Practiced
 - `ssh` - Secure shell connection
 - `ls -la` - List all files including hidden
 - `cat` - Display file contents
 - `pwd` - Print working directory
+
 
 ---
 
@@ -67,8 +70,8 @@ The password for the next level is stored in a file called `-` located in the ho
 ```
 
 ### Solution
-The password for level 1 is stored in a file called `-` in the /home/bandit1
-home directory
+- The dash `-` is a special character (means stdin). Use `./-` to specify it as a filename.
+- The password for level 1 is stored in a file called `-` in the /home/bandit1home directory
 
 ### Password for Next Level
 ```
@@ -77,7 +80,10 @@ home directory
 ```
 
 ### Key Learning
- The primary learning is that the forward slash / is the root directory from which all other files and directories descend in a unified tree structure. Understanding this hierarchy is fundamental for navigating the system and locating files. 
+- The primary learning is that the forward slash / is the root directory from which all other files and directories descend in a unified tree structure. Understanding this hierarchy is fundamental for navigating the system and locating files. 
+- Handling special characters in filenames
+- Using `./ ` to reference current directory
+- Alternative input redirection with `< `
 
 ### Commands Practiced
 ```bash
@@ -87,6 +93,8 @@ home directory
 - `pwd` - Print working directory
 - `find` - find the file 
 - `du` - measures the disk space occupied by files or directories
+- `cat ./-` - Read file with special name
+- `cat < -` - Alternative approach
 
 ---
 
@@ -105,8 +113,6 @@ The password for the next level is stored in a file called --spaces in this file
 - `find` - find the file 
 - `du` - measures the disk space occupied by files or directories
 
-# Document commands here
-```
 
 ### Solution
 The password for the next level is in a file with spaces named "--spaces in this filename--"
@@ -200,6 +206,9 @@ is the correct file — it's human-readable
 - The file command tells you what kind of content is inside.
 - The only file labeled ASCII text is safe to open with cat.
 - That file contains the password.
+- `file` command determines file type
+- Not all files are text (can be data, binary, etc.)
+- Wildcards `*` check multiple files at once
 
 ### Commands Practiced
 ```bash
@@ -211,15 +220,11 @@ is the correct file — it's human-readable
 
 ---
 
-
-
----
-
 ## Summary Statistics
 
 ### Progress
-- **Levels Completed:** 0/20
-- **Total Time Spent:** 0 hours
+- **Levels Completed:** 5/20
+- **Total Time Spent:** 3 hours
 - **Started:** November 6, 2025
 - **Completed:** [Date when finished]
 
